@@ -1,82 +1,92 @@
-🧬 AI-Based Approach for Prioritization of Genetic Mutations
+# 🧬 AI-Based Approach for Prioritization of Genetic Mutations
+
 Advanced machine learning framework for ranking genetic mutations based on disease relevance using deep learning and biochemical scoring systems.
 
-🔧 Tech Stack & Requirements
-Machine Learning: TensorFlow/Keras, LSTM, 1D CNN
+---
 
-Bioinformatics: BLOSUM62 Matrix, Grantham Distance Scoring
+## 🔧 Tech Stack & Requirements
 
-Data Processing: NumPy, Pandas, Scikit-learn
+- **Machine Learning**: TensorFlow/Keras, LSTM, 1D CNN
+- **Bioinformatics**: BLOSUM62 Matrix, Grantham Distance Scoring
+- **Data Processing**: NumPy, Pandas, Scikit-learn
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Analysis**: Jupyter Notebooks, Python 3.8+
 
-Visualization: Matplotlib, Seaborn, Plotly
+---
 
-Analysis: Jupyter Notebooks, Python 3.8+
+## ✨ Features
 
-✨ Features
-🧬 Multi-dimensional Mutation Analysis with sequence and biochemical feature integration
+- 🧬 **Multi-dimensional Mutation Analysis** with sequence and biochemical feature integration
+- 🔗 **BLOSUM62 Substitution Matrix** for amino acid change scoring
+- 📏 **Grantham Distance Scoring** for physicochemical property analysis
+- 🧠 **LSTM Networks** for capturing long-range sequence dependencies
+- 🔍 **1D CNN Architecture** for local structural pattern detection
+- ⚖️ **Custom Scoring Framework** integrating conservation and structural impact
+- 📊 **Advanced Visualizations** highlighting high-impact mutations
+- 🎯 **Clinical Relevance Scoring** optimized for precision medicine applications
 
-🔗 BLOSUM62 Substitution Matrix for amino acid change scoring
+---
 
-📏 Grantham Distance Scoring for physicochemical property analysis
+## ⚙️ Setup & Installation
 
-🧠 LSTM Networks for capturing long-range sequence dependencies
+### 1️⃣ Clone the Repository
 
-🔍 1D CNN Architecture for local structural pattern detection
-
-⚖️ Custom Scoring Framework integrating conservation and structural impact
-
-📊 Advanced Visualizations highlighting high-impact mutations
-
-🎯 Clinical Relevance Scoring optimized for precision medicine applications
-
-
-⚙️ Setup & Installation
-1️⃣ Clone the Repository
-bash
 git clone https://github.com/Vishalspl-0903/AI-Based-Approach-for-Prioritization-of-Genetic-Mutations.git
 cd AI-Based-Approach-for-Prioritization-of-Genetic-Mutations
-2️⃣ Environment Setup
-bash
-# Using conda (recommended)
+
+### 2️⃣ Environment Setup
+
+#### Using Conda (Recommended)
+
 conda env create -f environment.yml
 conda activate mutation-prioritizer
 
-# Or using pip
+
+#### Or Using Pip
+
 pip install -r requirements.txt
 
 
-📈 Development Roadmap
- Integration with additional scoring matrices (PAM, DAYHOFF)
+---
 
- Support for structural protein data (PDB integration)
+## 📈 Development Roadmap
 
- Real-time mutation analysis API
+- [ ] Integration with additional scoring matrices (PAM, DAYHOFF)
+- [ ] Support for structural protein data (PDB integration)
+- [ ] Real-time mutation analysis API
+- [ ] Integration with clinical databases (ClinVar, COSMIC)
+- [ ] Advanced uncertainty quantification methods
+- [ ] Multi-species mutation analysis support
 
- Integration with clinical databases (ClinVar, COSMIC)
+---
 
- Advanced uncertainty quantification methods
+## 🤝 Contributing
 
- Multi-species mutation analysis support
+We welcome contributions! Here’s how to get started:
 
-🤝 Contributing
-Fork the repository
+1. Fork the repository
+2. Create a feature branch:  
+   git checkout -b feature/amazing-feature
+   
+3. Commit your changes:  
+   git commit -m 'Add amazing feature'
+  
+4. Push to the branch:  
+   git push origin feature/amazing-feature
+   
+6. Open a Pull Request
 
-Create a feature branch (git checkout -b feature/amazing-feature)
+### Development Guidelines
 
-Commit your changes (git commit -m 'Add amazing feature')
+- ✅ Follow [PEP 8](https://pep8.org/) style guidelines
+- ✅ Include comprehensive docstrings
+- ✅ Add unit tests for new features
+- ✅ Update documentation for API changes
 
-Push to the branch (git push origin feature/amazing-feature)
+---
 
-Open a Pull Request
+## 📜 License
 
-Development Guidelines
-Follow PEP 8 style guidelines
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-Include comprehensive docstrings
 
-Add unit tests for new features
-
-Update documentation for API changes
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
