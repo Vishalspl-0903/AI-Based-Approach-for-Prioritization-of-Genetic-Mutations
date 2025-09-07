@@ -32,7 +32,7 @@ Advanced machine learning framework for ranking genetic mutations based on disea
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/Vishalspl-0903/AI-Based-Approach-for-Prioritization-of-Genetic-Mutations.git
-cd AI-Based-Approach-for-Prioritization-of-Genetic-Mutations
+ cd AI-Based-Approach-for-Prioritization-of-Genetic-Mutations
 
 ### 2️⃣ Environment Setup
 
@@ -88,5 +88,6 @@ We welcome contributions! Here’s how to get started:
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
 
 
