@@ -31,21 +31,25 @@ Advanced machine learning framework for ranking genetic mutations based on disea
 
 ### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/Vishalspl-0903/AI-Based-Approach-for-Prioritization-of-Genetic-Mutations.git
- cd AI-Based-Approach-for-Prioritization-of-Genetic-Mutations
+cd AI-Based-Approach-for-Prioritization-of-Genetic-Mutations
+```
 
 ### 2️⃣ Environment Setup
 
 #### Using Conda (Recommended)
 
+```bash
 conda env create -f environment.yml
 conda activate mutation-prioritizer
-
+```
 
 #### Or Using Pip
 
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -66,15 +70,18 @@ We welcome contributions! Here’s how to get started:
 
 1. Fork the repository
 2. Create a feature branch:  
+   ```bash
    git checkout -b feature/amazing-feature
-   
+   ```
 3. Commit your changes:  
+   ```bash
    git commit -m 'Add amazing feature'
-  
+   ```
 4. Push to the branch:  
+   ```bash
    git push origin feature/amazing-feature
-   
-6. Open a Pull Request
+   ```
+5. Open a Pull Request
 
 ### Development Guidelines
 
@@ -88,6 +95,11 @@ We welcome contributions! Here’s how to get started:
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+```
+
+---
 
 
+
+---
 
