@@ -45,12 +45,6 @@ conda env create -f environment.yml
 conda activate mutation-prioritizer
 ```
 
-#### Or Using Pip
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 📈 Development Roadmap
@@ -95,4 +89,5 @@ We welcome contributions! Here’s how to get started:
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
 
